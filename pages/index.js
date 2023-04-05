@@ -14,7 +14,7 @@ import Image from "next/image";
 import web1 from "../public/ChatGPTclone.png";
 import web2 from "../public/reactadmindash.png";
 import web3 from "../public/crowdfundingpic.png";
-import web4 from "../public/web4.png";
+import web4 from "../public/weatherapp.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 
@@ -119,6 +119,9 @@ C/C++, Java and Python.
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             <span className="font-medium"> Web3 Blockchain Crowdfunding Platform </span> - create, view and donate to crowdfunding campaigns directly through the blockchain - <a href="https://blockchain-crowdfunding.netlify.app" className="text-teal-600">https://blockchain-crowdfunding.netlify.app</a>
             </p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <span className="font-medium"> Weather App </span>- built with Javascript <a href="https://showweather-app.vercel.app/" className="text-teal-600">https://showweather-app.vercel.app/</a>
+            </p>
             
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -147,6 +150,15 @@ C/C++, Java and Python.
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web4}
               />
             </div>
             
