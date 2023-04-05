@@ -15,7 +15,7 @@ import web1 from "../public/ChatGPTclone.png";
 import web2 from "../public/reactadmindash.png";
 import web3 from "../public/crowdfundingpic.png";
 import web4 from "../public/weatherapp.png";
-import web5 from "../public/web5.png";
+import web5 from "../public/imagegen.png";
 import web6 from "../public/web6.png";
 
 export default function Home() {
@@ -49,8 +49,7 @@ export default function Home() {
               Full Stack Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Self taught full stack developer with skills in HTML, CSS, Javascript, React, tailwind, Node.js, SQL, MongoDB,
-C/C++, Java and Python.
+            Self taught full stack developer with skills in HTML, CSS, Javascript, React, Tailwind CSS, Bootstrap, Node.js, SQL, MongoDB, API, GIT, C, C++, Java , Python, Go and Kotlin.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://www.linkedin.com/in/krešimir-krunić/" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gray-400">
@@ -122,7 +121,9 @@ C/C++, Java and Python.
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             <span className="font-medium"> Weather App </span>- built with Javascript <a href="https://showweather-app.vercel.app/" className="text-teal-600">https://showweather-app.vercel.app/</a>
             </p>
-            
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <span className="font-medium"> AI Image Generator </span> - built with Node.js and OpenAI - <a href="https://imggenclient.onrender.com/" className="text-teal-600">https://imggenclient.onrender.com/</a> 
+            </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
@@ -161,7 +162,15 @@ C/C++, Java and Python.
                 src={web4}
               />
             </div>
-            
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web5}
+              />
+            </div>
           </div>
         </section>
       </main>
