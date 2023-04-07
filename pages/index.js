@@ -46,13 +46,13 @@ export default function Home() {
               Krešimir Krunić
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Full Stack Developer
+              Front-End Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Self taught full stack developer with skills in HTML, CSS, Javascript, React, Tailwind CSS, Bootstrap, Node.js, SQL, MongoDB, API, GIT, C, C++, Java , Python, Go and Kotlin.
+            Self taught front-end developer with skills in HTML, CSS, Javascript, React, Tailwind CSS, Bootstrap, Node.js, MySQL, MongoDB, GIT, Python, C, C++, Java, Go and Kotlin.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://www.linkedin.com/in/krešimir-krunić/" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gray-400">
+            <a href="https://www.linkedin.com/in/kresimir-krunic/" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gray-400">
               <AiFillLinkedin />
             </a>
             </div>
@@ -89,7 +89,7 @@ export default function Home() {
               <p className="py-2">
               Building robust, scalable and secure server-side applications with proficiency in various backend technologies, APIs and databases
               </p>
-              <p className="text-teal-600 pt-8 pb-1">Javascript</p>
+              <p className="text-teal-600 pt-8 pb-1">Node.js</p>
               <p className="text-teal-600 py-1">Python</p>
               <p className="text-teal-600 py-1">Java</p>
             </div>
