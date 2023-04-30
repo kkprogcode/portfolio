@@ -16,7 +16,7 @@ import web2 from "../public/reactadmindash.png";
 import web3 from "../public/crowdfundingpic.png";
 import web4 from "../public/weatherapp.png";
 import web5 from "../public/imagegen.png";
-import web6 from "../public/web6.png";
+import web6 from "../public/astro.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -49,7 +49,7 @@ export default function Home() {
               Front-End Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Self taught front-end developer with skills in HTML, CSS, Javascript, React, Tailwind CSS, Bootstrap, Node.js, MySQL, MongoDB, GIT, Python, C, C++, Java, Go and Kotlin.
+            Self taught front-end developer with skills in HTML, CSS, Javascript, React, Tailwind CSS, Bootstrap, Node.js, MySQL, MongoDB, GIT, Python, C, C++, Java, Go, Kotlin and Astro.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://www.linkedin.com/in/kresimir-krunic/" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gray-400">
@@ -124,6 +124,9 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             <span className="font-medium"> AI Image Generator </span> - built with Node.js and OpenAI - <a href="https://imggenclient.onrender.com/" className="text-teal-600">https://imggenclient.onrender.com/</a> 
             </p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <span className="font-medium"> Astro website </span> - built with Astro - <a href="https://astro-demowebsite.netlify.app/" className="text-teal-600">https://astro-demowebsite.netlify.app/</a> 
+            </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
@@ -169,6 +172,15 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web6}
               />
             </div>
           </div>
